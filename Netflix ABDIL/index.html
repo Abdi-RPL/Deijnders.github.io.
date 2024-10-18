@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deijnderss</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <select name="language" id="language">
+            <option value="en">English</option>
+            <option value="indonesia">Indonesia</option>
+            <!-- Add more languages here -->
+        </select>
+        <button>Sign In</button>
+    </div>
+
+    <div class="background">
+        <div class="overlay">
+            <div class="content">
+                <img src="image/logo.png" alt="Netflix Logo" class="logo">
+                <h1>Unlimited movies, TV shows and more</h1>
+                <p>Starts at Ceban or Goceng. Cancel at any time.</p>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <form class="email-form">
+                    <input type="email" placeholder="Email address" required>
+                    <button type="submit">Get Started > </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-slides">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide" style="background: url(image/slide01.jpg);">
+                    Slide 1
+                    <div class="slide-iinfo">
+                        <h1 class="slide-tittle">Netflix</h1>
+                        <h2 class="slide-desc">Movie</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(image/slide02.jpg);">
+                    Slide 2
+                    <div class="slide-iinfo">
+                        <h1 class="slide-tittle">Netflix</h1>
+                        <h2 class="slide-desc">Movie</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(image/slide03.jpg);">
+                    Slide 3
+                    <div class="slide-iinfo">
+                        <h1 class="slide-tittle">Netflix</h1>
+                        <h2 class="slide-desc">Movie</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background: url(image/slide04.jpg);">
+                    Slide 4
+                    <div class="slide-iinfo">
+                        <h1 class="slide-tittle">Netflix</h1>
+                        <h2 class="slide-desc">Movie</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Footer Section -->
+    <div class="site-footer">
+        <p class="footer-title">Questions? DM For my Isntagram @pifnvv_</p>
+
+        <!-- Footer Links -->
+        <div class="footer-links">
+            <div class="footer-link-group">
+                <a href="#">FAQ</a>
+                <a href="#">Privacy</a>
+                <a href="#">FAQ</a>
+                <a href="#">Privacy</a>
+            </div>
+            <div class="footer-link-group">
+                <a href="#">Help Centre</a>
+                <a href="#">Jobs</a>
+                <a href="#">Help centre</a>
+            </div>
+            <div class="footer-link-group">
+                <a href="#">Account</a>
+                <a href="#">Only on Netflix</a>
+                <a href="#">Account</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+            <div class="footer-link-group">
+                <a href="#">Media Centre</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Media Centre</a>
+            </div>
+        </div>
+
+        <!-- Footer Bottom Text -->
+        <div class="footer-copyright">
+            <p>Netflix Web | Deijnderss</p>
+        </div>
+    </div>
+</body>
+
+</html>
